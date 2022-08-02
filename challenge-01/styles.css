@@ -1,0 +1,65 @@
+* {
+	font-family: helvetica, sans-serif;
+}
+
+#btn-success {
+	background-color: #5cb85f;
+	border-radius: 2px;
+	border: none;
+	padding: 8px 12px;
+}
+
+.navbar {
+	background-color: #f1f3ff;
+}
+
+.navbar .navbar-content {
+	width: 1168px;
+}
+
+.hero {
+	background-color: #f1f3ff;
+	height: 504px;
+}
+
+body {
+	height: 1000px;
+}
+
+.navbar-brand {
+	width: 100px;
+	height: 34px;
+	background-color: #0d28a6;
+}
+
+.car {
+	width: 704px;
+	height: 407px;
+	right: 5px;
+	top: 97px;
+}
+
+.car img {
+	width: 100%;
+}
+
+.desc {
+	height: 407px;
+	width: 568px;
+	top: 177px;
+	left: 136px;
+}
+
+.welcome {
+	width: 486px;
+}
+
+.bg-car {
+	position: absolute;
+	width: 704px;
+	height: 243px;
+	right: 0px;
+	top: 261px;
+	background: #0d28a6;
+	border-radius: 60px 0px 0px 0px;
+}
