@@ -2,6 +2,10 @@
 	font-family: helvetica, sans-serif;
 }
 
+p {
+	font-size: 14px;
+}
+
 #btn-success {
 	background-color: #5cb85f;
 	border-radius: 2px;
@@ -22,8 +26,12 @@
 	height: 504px;
 }
 
+.hero .content {
+	width: 1440px;
+}
+
 body {
-	height: 1000px;
+	height: 3226px;
 }
 
 .navbar-brand {
@@ -35,7 +43,7 @@ body {
 .car {
 	width: 704px;
 	height: 407px;
-	right: 5px;
+	right: 0px;
 	top: 97px;
 }
 
@@ -44,10 +52,13 @@ body {
 }
 
 .desc {
-	height: 407px;
 	width: 568px;
 	top: 177px;
 	left: 136px;
+}
+
+.slogan {
+	font-size: 36px;
 }
 
 .welcome {
@@ -55,11 +66,89 @@ body {
 }
 
 .bg-car {
-	position: absolute;
 	width: 704px;
 	height: 243px;
 	right: 0px;
 	top: 261px;
 	background: #0d28a6;
 	border-radius: 60px 0px 0px 0px;
+}
+
+.img-service {
+	width: 459px;
+	height: 428px;
+}
+
+.circle-gr {
+	background-color: #92d094;
+	width: 133px;
+	height: 133px;
+}
+
+.circle-red {
+	background-color: #fa2c5a;
+	width: 25px;
+	height: 25px;
+	top: 43px;
+	right: 65px;
+}
+
+.circle-yl {
+	background-color: #f9cc00;
+	width: 48px;
+	height: 48px;
+	bottom: 44px;
+	left: 60px;
+}
+
+.girl-photo {
+	width: 360px;
+	height: 360px;
+	background-color: #0d28a6;
+	top: 68px;
+	right: 0;
+}
+
+.girl-photo img {
+	width: 360px;
+}
+
+.girl-top {
+	top: -69px;
+}
+
+#service .container {
+	width: 1027px;
+	height: 428px;
+	margin-top: 104px;
+}
+
+.desc-service {
+	height: 356px;
+	width: 468px;
+}
+
+.checklist {
+	width: 24px;
+	height: 24px;
+	background-color: #cfd4ed;
+}
+
+#why-us .container {
+	margin-top: 100px;
+	width: 1168px;
+}
+
+.heading {
+	margin-bottom: 40px;
+}
+
+.card {
+	width: 268px;
+	height: 196px;
+}
+
+.card img {
+	width: 32px;
+	margin: 24px 0 0 24px;
 }
