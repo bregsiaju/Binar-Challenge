@@ -30,10 +30,6 @@ p {
 	width: 1440px;
 }
 
-body {
-	height: 3226px;
-}
-
 .navbar-brand {
 	width: 100px;
 	height: 34px;
@@ -137,6 +133,7 @@ body {
 .container {
 	margin-top: 100px;
 	width: 1168px;
+	padding: 0;
 }
 
 .heading {
@@ -192,4 +189,24 @@ body {
 
 #getting-started .container .desc {
 	margin-bottom: 52px;
+}
+
+.accordion {
+	width: 668px;
+}
+
+.accordion-button {
+	border: 1px solid #d4d4d4;
+	border-radius: 4px;
+}
+
+footer .container {
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+
+footer .container .address,
+.sosmed,
+.copyright {
+	width: 268px;
 }
