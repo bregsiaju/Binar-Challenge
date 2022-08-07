@@ -6,11 +6,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 		<!-- css bootstrap -->
-		<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" /> -->
 		<link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
 
 		<!-- style css -->
 		<link rel="stylesheet" href="styles.css" />
+
+		<!-- font awesome -->
+		<script src="https://kit.fontawesome.com/ecde83b210.js" crossorigin="anonymous"></script>
 
 		<title>Binar Rental Car</title>
 	</head>
@@ -25,8 +27,8 @@
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div class="navbar-nav ms-auto">
 						<a class="nav-link me-4 text-black" href="#service">Our Service</a>
-						<a class="nav-link me-4 text-black" href="#">Why Us</a>
-						<a class="nav-link me-4 text-black" href="#">Testimonial</a>
+						<a class="nav-link me-4 text-black" href="#why-us">Why Us</a>
+						<a class="nav-link me-4 text-black" href="#testimonial">Testimonial</a>
 						<a class="nav-link me-4 text-black" href="#">FAQ</a>
 						<a class="nav-link btn btn-success text-white fw-bold" href="#" id="btn-success">Register</a>
 					</div>
@@ -55,7 +57,7 @@
 
 		<!-- our service -->
 		<section id="service">
-			<div class="container d-flex justify-content-between p-0">
+			<div class="container d-flex justify-content-between p-0 align-items-center">
 				<div class="img-service position-relative">
 					<div class="rounded-circle circle-gr position-absolute"></div>
 					<div class="rounded-circle circle-red position-absolute"></div>
@@ -159,9 +161,69 @@
 		<!-- end why us -->
 
 		<!-- testi -->
+		<section id="testimonial">
+			<div class="container">
+				<div class="heading d-flex align-items-center flex-column">
+					<p class="fs-4 fw-bold">Testimonial</p>
+					<p>Berbagai review positif dari para pelanggan kami</p>
+				</div>
+				<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+					<div class="carousel-inner">
+						<div class="carousel-item active m-0">
+							<div class="content d-flex align-items-center">
+								<img src="assets/man.png" class="img-testi" alt="testi 1" />
+								<div class="testi">
+									<img src="assets/Rate.svg" alt="rate" />
+									<p class="my-2">
+										“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+										eiusmod”
+									</p>
+									<p class="fw-bold mb-0">John Dee 32, Bromo</p>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="content d-flex align-items-center">
+								<img src="assets/man.png" class="img-testi" alt="testi 2" />
+								<div class="testi">
+									<img src="assets/Rate.svg" alt="rate" />
+									<p class="my-2">
+										“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+										eiusmod”
+									</p>
+									<p class="fw-bold mb-0">John Dee 32, Bromo</p>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="content d-flex align-items-center">
+								<img src="assets/woman.png" class="img-testi" alt="testi 3" />
+								<div class="testi">
+									<img src="assets/Rate.svg" alt="rate" />
+									<p class="my-2">
+										“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+										eiusmod”
+									</p>
+									<p class="fw-bold mb-0">John Dee 32, Bromo</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-ctrl d-flex justify-content-center mt-4">
+						<button class="carousel-ctrl-prev rounded-circle me-4" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+							<i class="fa-solid fa-angle-left"></i>
+						</button>
+						<button class="carousel-ctrl-next rounded-circle" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+							<i class="fa-solid fa-angle-right"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
 		<!-- end testi -->
 
 		<!-- getting starter -->
+		<div class="container"></div>
 		<!-- end getting starter -->
 
 		<!-- FAQ -->
@@ -170,7 +232,7 @@
 		<!-- footer -->
 		<!-- end footer -->
 
-		<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> -->
+		<!-- JS Bootstrap -->
 		<script src="bootstrap/bootstrap.bundle.min.js"></script>
 	</body>
 </html>
