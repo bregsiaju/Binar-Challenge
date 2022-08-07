@@ -134,7 +134,7 @@ body {
 	background-color: #cfd4ed;
 }
 
-#why-us .container {
+.container {
 	margin-top: 100px;
 	width: 1168px;
 }
@@ -151,10 +151,6 @@ body {
 .card img {
 	width: 32px;
 	margin: 24px 0 0 24px;
-}
-
-#testimonial .container {
-	margin-top: 100px;
 }
 
 .carousel-item .content {
@@ -185,4 +181,15 @@ body {
 .carousel-ctrl-next:hover {
 	background-color: #5cb85f;
 	color: #fff;
+}
+
+#getting-started .container {
+	/* height: 326px; */
+	background-color: #0d28a6;
+	border-radius: 13px;
+	padding: 64px;
+}
+
+#getting-started .container .desc {
+	margin-bottom: 52px;
 }
