@@ -1,3 +1,4 @@
+/* general */
 * {
 	font-family: helvetica, sans-serif;
 }
@@ -13,6 +14,13 @@ p {
 	padding: 8px 12px;
 }
 
+.container {
+	margin-top: 100px;
+	width: 1168px;
+	padding: 0;
+}
+
+/* navbar */
 .navbar {
 	background-color: #f1f3ff;
 }
@@ -21,19 +29,20 @@ p {
 	width: 1168px;
 }
 
-.hero {
-	background-color: #f1f3ff;
-	height: 504px;
-}
-
-.hero .content {
-	width: 1440px;
-}
-
 .navbar-brand {
 	width: 100px;
 	height: 34px;
 	background-color: #0d28a6;
+}
+
+/* main section */
+#main {
+	background-color: #f1f3ff;
+	height: 504px;
+}
+
+#main .content {
+	width: 1440px;
 }
 
 .car {
@@ -48,17 +57,11 @@ p {
 }
 
 .desc {
-	width: 568px;
 	top: 177px;
-	left: 136px;
 }
 
 .slogan {
 	font-size: 36px;
-}
-
-.welcome {
-	width: 486px;
 }
 
 .bg-car {
@@ -70,12 +73,19 @@ p {
 	border-radius: 60px 0px 0px 0px;
 }
 
+/* service section */
+#our-service .container {
+	width: 1027px;
+	height: 428px;
+	margin-top: 104px;
+}
+
 .img-service {
 	width: 459px;
 	height: 428px;
 }
 
-.circle-gr {
+.circle-green {
 	background-color: #92d094;
 	width: 133px;
 	height: 133px;
@@ -89,7 +99,7 @@ p {
 	right: 65px;
 }
 
-.circle-yl {
+.circle-yellow {
 	background-color: #f9cc00;
 	width: 48px;
 	height: 48px;
@@ -113,12 +123,6 @@ p {
 	top: -69px;
 }
 
-#service .container {
-	width: 1027px;
-	height: 428px;
-	margin-top: 104px;
-}
-
 .desc-service {
 	height: 356px;
 	width: 468px;
@@ -130,12 +134,7 @@ p {
 	background-color: #cfd4ed;
 }
 
-.container {
-	margin-top: 100px;
-	width: 1168px;
-	padding: 0;
-}
-
+/* why us section */
 .heading {
 	margin-bottom: 40px;
 }
@@ -150,20 +149,30 @@ p {
 	margin: 24px 0 0 24px;
 }
 
-.carousel-item .content {
-	background-color: #f1f3ff;
-	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-	border-radius: 8px;
-	width: 619px;
-	height: 270px;
-	padding: 0px 32px 0px 46px;
-	margin: 0 auto;
+/* testimonial section */
+#testimonial .containers {
+	width: 1320px;
+	margin: 100px auto 0;
 }
 
-.img-testi {
+.item {
+	height: 270px;
+	width: 619px;
+	background-color: #f1f3ff;
+	padding: 0px 32px 0px 46px;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 8px;
+}
+
+.owl-carousel .owl-item img {
 	width: 80px;
 	height: 80px;
 	margin-right: 46px;
+}
+
+#rate {
+	max-width: 100%;
+	height: auto;
 }
 
 .carousel-ctrl-prev,
@@ -180,8 +189,8 @@ p {
 	color: #fff;
 }
 
+/* getting started */
 #getting-started .container {
-	/* height: 326px; */
 	background-color: #0d28a6;
 	border-radius: 13px;
 	padding: 64px;
@@ -191,6 +200,7 @@ p {
 	margin-bottom: 52px;
 }
 
+/* FAQ section */
 .accordion {
 	width: 668px;
 }
@@ -200,6 +210,7 @@ p {
 	border-radius: 4px;
 }
 
+/* footer section */
 footer .container {
 	margin-top: 150px;
 	margin-bottom: 100px;

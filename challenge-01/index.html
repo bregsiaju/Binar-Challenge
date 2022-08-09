@@ -8,6 +8,10 @@
 		<!-- css bootstrap -->
 		<link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
 
+		<!-- styling owl carousel -->
+		<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
+		<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
+
 		<!-- style css -->
 		<link rel="stylesheet" href="styles.css" />
 
@@ -28,8 +32,8 @@
 					<div class="navbar-nav ms-auto">
 						<a class="nav-link me-4 text-black" href="#service">Our Service</a>
 						<a class="nav-link me-4 text-black" href="#why-us">Why Us</a>
-						<a class="nav-link me-4 text-black" href="#testimonial">Testimonial</a>
-						<a class="nav-link me-4 text-black" href="#">FAQ</a>
+						<a class="nav-link me-4 text-black" href="#testi">Testimonial</a>
+						<a class="nav-link me-4 text-black" href="#FAQ">FAQ</a>
 						<a class="nav-link btn btn-success text-white fw-bold" href="#" id="btn-success">Register</a>
 					</div>
 				</div>
@@ -38,12 +42,14 @@
 		<!-- end navbar -->
 
 		<!-- main section -->
-		<section id="main" class="hero d-flex justify-content-center">
+		<section id="main" class="d-flex justify-content-center">
 			<div class="d-flex content position-relative">
-				<div class="desc position-absolute">
-					<p class="slogan fw-bold">Sewa & Rental Mobil Terbaik di kawasan Surabaya</p>
-					<p class="welcome fw-light">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
-					<a class="btn text-white fw-bold" id="btn-success" href="#">Mulai Sewa Mobil</a>
+				<div class="container">
+					<div class="desc position-absolute">
+						<p class="slogan fw-bold">Sewa & Rental Mobil Terbaik di<br />kawasan Surabaya</p>
+						<p class="fw-light">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas<br />dengan harga terjangkau. Selalu siap melayani kebutuhanmu<br />untuk sewa mobil selama 24 jam.</p>
+						<a class="btn text-white fw-bold" id="btn-success" href="#">Mulai Sewa Mobil</a>
+					</div>
 				</div>
 				<div class="img-car">
 					<div class="bg-car position-absolute"></div>
@@ -53,15 +59,16 @@
 				</div>
 			</div>
 		</section>
+		<div id="service"></div>
 		<!-- end main section -->
 
 		<!-- our service -->
-		<section id="service">
+		<section id="our-service">
 			<div class="container d-flex justify-content-between p-0 align-items-center">
 				<div class="img-service position-relative">
-					<div class="rounded-circle circle-gr position-absolute"></div>
+					<div class="rounded-circle circle-green position-absolute"></div>
 					<div class="rounded-circle circle-red position-absolute"></div>
-					<div class="rounded-circle circle-yl position-absolute"></div>
+					<div class="rounded-circle circle-yellow position-absolute"></div>
 					<div class="girl-photo rounded-circle position-absolute position-relative">
 						<img class="position-absolute rounded-circle" src="assets/girl-bottom.png" alt="" />
 						<img class="girl-top position-absolute" src="assets/girl-top.png" alt="" />
@@ -106,11 +113,12 @@
 					</div>
 				</div>
 			</div>
+			<div id="why-us"></div>
 		</section>
 		<!-- end our service -->
 
 		<!-- why us -->
-		<section id="why-us">
+		<section>
 			<div class="container">
 				<div class="heading p-0">
 					<p class="fs-4 fw-bold">Why Us?</p>
@@ -157,70 +165,55 @@
 					</div>
 				</div>
 			</div>
+			<div id="testi"></div>
 		</section>
 		<!-- end why us -->
 
-		<!-- testi -->
+		<!-- testimonial -->
 		<section id="testimonial">
-			<div class="container">
+			<div class="containers">
 				<div class="heading d-flex align-items-center flex-column">
 					<p class="fs-4 fw-bold">Testimonial</p>
 					<p>Berbagai review positif dari para pelanggan kami</p>
 				</div>
-				<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-					<div class="carousel-inner">
-						<div class="carousel-item active m-0">
-							<div class="content d-flex align-items-center">
-								<img src="assets/man.png" class="img-testi" alt="testi 1" />
-								<div class="testi">
-									<img src="assets/Rate.svg" alt="rate" />
-									<p class="my-2">
-										“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-										eiusmod”
-									</p>
-									<p class="fw-bold mb-0">John Dee 32, Bromo</p>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="content d-flex align-items-center">
-								<img src="assets/man.png" class="img-testi" alt="testi 2" />
-								<div class="testi">
-									<img src="assets/Rate.svg" alt="rate" />
-									<p class="my-2">
-										“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-										eiusmod”
-									</p>
-									<p class="fw-bold mb-0">John Dee 32, Bromo</p>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="content d-flex align-items-center">
-								<img src="assets/woman.png" class="img-testi" alt="testi 3" />
-								<div class="testi">
-									<img src="assets/Rate.svg" alt="rate" />
-									<p class="my-2">
-										“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-										eiusmod”
-									</p>
-									<p class="fw-bold mb-0">John Dee 32, Bromo</p>
-								</div>
-							</div>
+				<div class="owl-carousel owl-theme">
+					<div class="item d-flex align-items-center">
+						<img src="assets/man.png" alt="testi 1" />
+						<div class="testi">
+							<img src="assets/Rate.svg" id="rate" alt="rate" />
+							<p class="my-2">
+								“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod”
+							</p>
+							<p class="fw-bold mb-0">John Dee 32, Bromo</p>
 						</div>
 					</div>
-					<div class="carousel-ctrl d-flex justify-content-center mt-4">
-						<button class="carousel-ctrl-prev rounded-circle me-4" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-							<i class="fa-solid fa-angle-left"></i>
-						</button>
-						<button class="carousel-ctrl-next rounded-circle" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-							<i class="fa-solid fa-angle-right"></i>
-						</button>
+					<div class="item d-flex align-items-center">
+						<img src="assets/woman.png" alt="testi 2" />
+						<div class="testi">
+							<img src="assets/Rate.svg" id="rate" alt="rate" />
+							<p class="my-2">
+								“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod”
+							</p>
+							<p class="fw-bold mb-0">John Dee 32, Bromo</p>
+						</div>
+					</div>
+					<div class="item d-flex align-items-center">
+						<img src="assets/man.png" alt="testi 3" />
+						<div class="testi">
+							<img src="assets/Rate.svg" id="rate" alt="rate" />
+							<p class="my-2">
+								“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod”
+							</p>
+							<p class="fw-bold mb-0">John Dee 32, Bromo</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- end testi -->
+		<!-- end testimonial -->
 
 		<!-- getting starter -->
 		<section id="getting-started">
@@ -229,11 +222,12 @@
 				<p class="text-white text-center desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br />tempor incididunt ut labore et dolore magna aliqua.</p>
 				<a class="btn text-white fw-bold" id="btn-success" href="#">Mulai Sewa Mobil</a>
 			</div>
+			<div id="FAQ"></div>
 		</section>
 		<!-- end getting starter -->
 
 		<!-- FAQ -->
-		<section id="FAQ">
+		<section>
 			<div class="container">
 				<div class="d-flex justify-content-between">
 					<div class="heading">
@@ -298,10 +292,10 @@
 					<p>081-233-334-808</p>
 				</div>
 				<div class="navigation">
-					<p class="fw-semibold">Our Service</p>
-					<p class="fw-semibold">Why Us</p>
-					<p class="fw-semibold">Testimonial</p>
-					<p class="fw-semibold mb-0">FAQ</p>
+					<a href="#service" class="nav-link"><p class="fw-semibold">Our Service</p></a>
+					<a href="#why-us" class="nav-link"><p class="fw-semibold">Why Us</p></a>
+					<a href="#testi" class="nav-link"><p class="fw-semibold">Testimonial</p></a>
+					<a href="#FAQ" class="nav-link"><p class="fw-semibold mb-0">FAQ</p></a>
 				</div>
 				<div class="sosmed">
 					<p>Connect with us</p>
@@ -323,5 +317,29 @@
 
 		<!-- JS Bootstrap -->
 		<script src="bootstrap/bootstrap.bundle.min.js"></script>
+
+		<!-- JS Owl Carousel -->
+		<script src="owlcarousel/jquery.min.js"></script>
+		<script src="owlcarousel/owl.carousel.min.js"></script>
+		<script>
+			$('.owl-carousel').owlCarousel({
+				loop: true,
+				center: true,
+				nav: true,
+				navText: ["<button class='carousel-ctrl-prev rounded-circle'><i class='fa-solid fa-angle-left'></i></button>", "<button class='carousel-ctrl-next rounded-circle'><i class='fa-solid fa-angle-right'></i></button>"],
+				dots: false,
+				responsive: {
+					0: {
+						items: 1,
+					},
+					600: {
+						items: 1,
+					},
+					1000: {
+						items: 2,
+					},
+				},
+			});
+		</script>
 	</body>
 </html>
