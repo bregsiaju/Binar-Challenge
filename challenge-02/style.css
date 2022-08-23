@@ -1,0 +1,186 @@
+* {
+	font-family: helvetica, sans-serif;
+}
+
+p {
+	font-size: 14px;
+}
+
+#btn-success {
+	background-color: #5cb85f;
+	border-radius: 2px;
+	border: none;
+	padding: 8px 12px;
+}
+
+body {
+	height: 3000px;
+}
+
+/*----------------------------------------
+# Navbar
+----------------------------------------*/
+.navbar {
+	background-color: #f1f3ff;
+	padding: 1rem;
+}
+
+.navbar .navbar-content {
+	width: 1168px;
+}
+
+.navbar-brand {
+	width: 100px;
+	height: 34px;
+	background-color: #0d28a6;
+}
+
+#offcanvasRight {
+	width: 50%;
+}
+
+@media (max-width: 992px) {
+	.navbar-nav .btn {
+		width: max-content;
+		margin-top: 8px;
+	}
+}
+
+/*----------------------------------------
+# main section
+----------------------------------------*/
+#main {
+	background-color: #f1f3ff;
+}
+#main .container {
+	width: 100%;
+	background-color: #f1f3ff;
+	margin-top: 72px;
+}
+
+#main .position-relative {
+	width: 1440px;
+}
+
+.welcome {
+	height: 407px;
+}
+
+.img-car {
+	background-color: #f1f3ff;
+	width: 100%;
+}
+
+.img-car img {
+	right: 0;
+	max-width: 704px;
+	height: 407px;
+}
+
+.desc {
+	top: 177px;
+}
+
+.slogan {
+	font-size: 36px;
+}
+
+@media (max-width: 992px) {
+	.welcome-text {
+		margin: 0;
+	}
+	.img-car img {
+		max-width: 100%;
+		height: auto;
+		padding-left: 16px;
+		background-color: #f1f3ff;
+	}
+	.welcome {
+		height: fit-content;
+		margin-top: 20px;
+	}
+}
+
+/*----------------------------------------
+# our service section
+----------------------------------------*/
+#our-service .container {
+	width: 1027px;
+	height: 428px;
+	margin-top: 104px;
+}
+
+.img-service img {
+	width: 459px;
+	height: 428px;
+}
+
+.checklist {
+	width: 24px;
+	height: 24px;
+}
+
+@media (max-width: 992px) {
+	.img-service img {
+		max-width: 100%;
+		height: auto;
+	}
+	#our-service .container {
+		width: 100%;
+		height: auto;
+		margin-top: 500px;
+	}
+}
+
+@media (max-width: 576px) {
+	#our-service .container {
+		margin-top: 280px;
+	}
+	.img-service {
+		margin: 0 2.5rem 1.5rem;
+	}
+}
+
+@media (max-width: 767px) and (min-width: 578px) {
+	#our-service .container {
+		margin-top: 450px;
+	}
+	.img-service {
+		margin: 0 2.5rem 1.5rem;
+	}
+}
+
+/*----------------------------------------
+# why us section
+----------------------------------------*/
+.why-us .container {
+	margin-top: 60px;
+}
+
+.heading {
+	margin-bottom: 40px;
+}
+
+.card {
+	width: 268px;
+	height: 196px;
+}
+
+.card img {
+	width: 32px;
+	margin: 24px 0 0 24px;
+}
+
+@media (min-width: 992px) {
+	.why-us .container {
+		margin-top: 100px;
+		width: 1168px;
+		padding: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.heading {
+		text-align: center;
+	}
+}
