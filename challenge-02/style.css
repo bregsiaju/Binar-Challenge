@@ -77,12 +77,12 @@ p.title-section {
     height: 407px;
 }
 
-.desc {
-    top: 177px;
-}
-
 .slogan {
     font-size: 2.25rem;
+}
+
+.welcome-text .fw-light {
+    max-width: 468px;
 }
 
 @media (max-width: 992px) {
