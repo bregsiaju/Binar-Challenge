@@ -161,9 +161,8 @@ body {
 	margin-bottom: 40px;
 }
 
-.card {
-	width: 268px;
-	height: 196px;
+.card-body {
+	padding: 24px;
 }
 
 .card img {
@@ -179,8 +178,88 @@ body {
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
 	.heading {
 		text-align: center;
+		margin-bottom: 24px;
+	}
+	.list-items .row .col {
+		padding: 0 1rem;
+	}
+}
+
+/*----------------------------------------
+# testimonial section
+----------------------------------------*/
+#testimonial .containers {
+	width: 100%;
+	margin: 60px auto 0;
+}
+
+.item {
+	height: auto;
+	width: 100%;
+	background-color: #f1f3ff;
+	padding: 40px 32px;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 8px;
+	flex-direction: column;
+	align-items: center;
+}
+
+.owl-carousel .owl-item img {
+	width: 80px;
+	height: 80px;
+}
+
+#rate {
+	max-width: 100%;
+	height: auto;
+}
+
+.carousel-ctrl-prev,
+.carousel-ctrl-next {
+	width: 32px;
+	height: 32px;
+	background-color: #fff;
+	border: 1px solid #c4c4c4;
+}
+
+.carousel-ctrl-prev:hover,
+.carousel-ctrl-next:hover {
+	background-color: #5cb85f;
+	color: #fff;
+}
+
+@media (min-width: 1200px) {
+	#testimonial .containers {
+		width: 1320px;
+		margin: 100px auto 0;
+	}
+	.item {
+		height: 270px;
+		width: 619px;
+		align-items: center;
+		flex-direction: row;
+	}
+	.owl-carousel .owl-item img {
+		margin-right: 46px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.rate {
+		justify-content: center;
+		margin: 24px auto;
+	}
+	.owl-carousel {
+		padding: 0 16px;
+	}
+}
+
+@media (max-width: 1024px) and (min-width: 992px) {
+	.item {
+		width: 60%;
+		margin: 0 auto;
 	}
 }
